@@ -1,0 +1,4 @@
+$('#frmChangePass').submit( function(){
+  
+
+  })  

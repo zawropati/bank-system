@@ -1,0 +1,25 @@
+{
+    "phone": "11111111",
+    "password": "domek1",
+    "active": 1,
+    "accounts": {
+        "5c75b43664c09": {
+            "balance": 10
+        },
+        "5c75b43e4fc5e": {
+            "balance": 10
+        },
+        "5c75b4422379d": {
+            "balance": 10
+        },
+        "5c75b4470ac65": {
+            "balance": 10
+        },
+        "5c76499d7c588": {
+            "balance": 10
+        },
+        "5c7649a9a5ff9": {
+            "balance": 10
+        }
+    }
+}

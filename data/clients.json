@@ -1,0 +1,26 @@
+{
+    "data": {
+        "38000000": {
+            "name": "Patrycja",
+            "lastName": "Zawrotniak",
+            "email": "zawrotniakpatrycja@gmail.com",
+            "password": "$2y$10$DIG1bvm6o7SI2q\/EqR3mde4rcQSQGvaklRn61q75kz2WpBiq2pfhK",
+            "cpr": "2703961234",
+            "balance": 7000,
+            "active": 1,
+            "iLoginAttemptsLeft": 3,
+            "iLastLoginAttempt": 0,
+            "admin": 1,
+            "loans": {},
+            "accounts": {
+                "5c75791b5f982": {
+                    "balance": 0,
+                    "accountName": "My main account",
+                    "accountType": "mainAccount",
+                    "accountCurrency": "Dkk"
+                }
+            },
+            "transactions": {}
+        }
+    }
+}

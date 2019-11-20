@@ -1,0 +1,208 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+body{
+  background-color: #ffffff;
+  background: url("../img/back5.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+nav{
+  height: 50px;
+  background-color:rgb(34, 69, 126);
+  -webkit-box-shadow: 3px 9px 12px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 3px 9px 12px 0px rgba(0,0,0,0.26);
+  box-shadow: 3px 9px 12px 0px rgba(0,0,0,0.26);
+
+
+}
+.navLoggedIn{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.navLoggedOut{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 15%;
+}
+.navLoggedOut>a{
+  padding-left: 20%;
+}
+.navLoggedIn{
+  padding-left: 10%;
+}
+nav>a{  
+  color: white;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+button{
+  outline: none;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: white;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: rgb(58, 118, 216);
+}
+
+button>a{
+ font-size: 16px;
+ color: white;   
+text-decoration: none;}
+h1{
+  padding: 4px 0;
+  color: rgb(58, 118, 216);
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.loanDiv{
+  padding: 50px 60px;
+  box-sizing: border-box;
+  z-index: 15;
+  position: relative;
+  background: white;
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0, .1);
+  box-sizing: border-box;
+  margin: 20px 10px;
+  overflow: hidden;
+  width: 400px;
+}
+
+form {
+  padding: 50px 60px;
+  box-sizing: border-box;
+  z-index: 15;
+  position: relative;
+  background: white;
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0, .1);
+  box-sizing: border-box;
+  margin: 20px  10px;
+  overflow: hidden;
+}
+#frmLogin, #frmSignup, #frmLoanApply, #frmChangePass{
+  margin: 50px auto 10px;
+
+}
+#frmForgotPassword{
+  display: none;
+  margin: 50px auto 10px;
+
+}
+#forgotPassword, #changePass{
+  color: dimgray;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 2em;
+}
+form>label{
+  display: block;
+  margin: 0 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+input, select {
+  outline: none;
+  display: block;
+  background-color: rgba(0,0,0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: gray;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  transition: 0.3s ease;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+.trCategories{
+  background-color: rgb(58, 118, 216);
+  color: white;
+}
+
+.sendEmailsDiv{
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 15;
+  position: relative;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0,0,0, .1);
+  box-sizing: border-box;
+  margin: 20px 10px;
+  overflow: hidden;
+  width: 250px;
+  right: 0;
+  float: right;
+}
+
+input.invalid{
+  border: 2px solid red;
+}
+
+.table{
+  padding: 20px 60px;
+  background: #ffffff;
+  width: 100%;
+  -webkit-box-shadow: 2px -5px 12px 0px rgba(0,0,0,0.26);
+  -moz-box-shadow: 2px -5px 12px 0px rgba(0,0,0,0.26);
+  box-shadow: 2px -5px 12px 0px rgba(0,0,0,0.26); 
+}
+.fa-piggy-bank{
+  font-size: 28px;
+}
+
+#title{
+  font-size: 30px;
+  color: black;
+}
